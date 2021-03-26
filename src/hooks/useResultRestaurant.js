@@ -22,7 +22,7 @@ export default () => {
             setErrorMessage('Something went wrong!');
         }
     };
-    useEffect(() => { searchApi('pasta'); }
+    useEffect(() => { searchApi('steak'); }
         , []);
 
     return [searchApi, resultsRestaurants, errorMessage];
